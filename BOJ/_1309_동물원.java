@@ -17,6 +17,8 @@ public class _1309_동물원 {
 			dp[i][2] = (dp[i-1][0] + dp[i-1][1])%9901;
 		}
 		
+		sc.close();
+
 		int ans = (dp[N-1][0] + dp[N-1][1] + dp[N-1][2])%9901;
 		System.out.println(ans);
 	}

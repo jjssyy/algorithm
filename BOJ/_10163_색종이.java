@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class _10163_색종이 {
@@ -33,5 +32,6 @@ public class _10163_색종이 {
 			}
 			System.out.println(ans);
 		}
+		sc.close();
 	}
 }
