@@ -38,7 +38,7 @@ public class _2839_설탕_배달 {
                 if(five-1<0){
                     System.out.println(-1);
                 }else{
-                    System.out.println(five+2);
+                    System.out.println(five+2); //(5kg 개수 -1) + (3kg 개수 +3)
                 }
                 break;
             
