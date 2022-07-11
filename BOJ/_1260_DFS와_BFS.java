@@ -49,9 +49,9 @@ public class _1260_DFS와_BFS {
     static void bfs(int V){
         Queue<Integer> q = new LinkedList<>();
         q.offer(V);
+        check[V] = true;
         while(!q.isEmpty()){
             int cur = q.poll();
-            check[cur] = true;
             System.out.print(cur+" ");
             
             for(int i=1; i<=N; i++){
