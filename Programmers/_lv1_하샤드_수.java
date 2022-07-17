@@ -7,6 +7,7 @@ public class _lv1_하샤드_수 {
         boolean answer = true;
         int sum =0;
         int n = x;
+        
         while(n>0){
             sum += n%10;
             n = n/10;
