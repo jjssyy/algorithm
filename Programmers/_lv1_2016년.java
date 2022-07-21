@@ -14,11 +14,10 @@ public class _lv1_2016년 {
         }
 
         if(tmp%7 ==0){
-            return "FRI";
+            return "THU";
         }
         String answer = day[tmp%7-1];
 
-        System.out.println(answer);
         return answer;
     }
 }
