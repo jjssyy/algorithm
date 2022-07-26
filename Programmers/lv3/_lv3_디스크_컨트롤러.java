@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class _lv3_디스크_컨트롤러 {
     public static void main(String[] args) {
         int[][] jobs = {{0, 3}, {1, 9}, {2, 6}};
