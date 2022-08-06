@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class _2_ {
+public class _0806_2_ {
     public static void main(String[] args) {
         int[] levels = {1,2,3,4};
         solution(levels);
